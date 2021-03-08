@@ -56,7 +56,7 @@ namespace DIO.Series
             foreach (var serie in lista)
             {
                 var excluido = serie.retornaExcluido();
-                
+
                 Console.WriteLine("#ID {0}: {1}", serie.retornaId(), serie.retornaTitulo());
             }
         }
